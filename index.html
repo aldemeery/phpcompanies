@@ -20,6 +20,7 @@
             <ul>
                 <li><small><a href="https://github.com/aldemeery/phpcompanies/issues/new?template=new-company.md&title=Add+Company%3A+%5BCompany%5D" target="_blank"><i style="margin-right: 5px;" class="fa-solid fa-arrow-up-right-from-square"></i>Submit a Company</a></small></li>
                 <li><small><a href="https://github.com/aldemeery/phpcompanies" target="_blank"><i style="margin-right: 5px;" class="fa-brands fa-github"></i>View on Github</a></small></li>
+                <li><small><a href="./about.html"><i style="margin-right: 5px;" class="fa-regular fa-circle-question"></i>About</a></small></li>
             </ul>
         </nav>
     </header>
@@ -56,5 +57,10 @@
     <script src="./js/components/CompanyName.js"></script>
     <script src="./js/components/CompaniesTable.js"></script>
     <script src="./js/app.js"></script>
+    <script>
+        if (companies) {
+            document.getElementById('number-of-companies').innerText = `A list of ${companies.length} companies!`;
+        }
+    </script>
 </body>
 </html>

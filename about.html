@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-US" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/pico.min.css">
+
+    <title>PHP Companies</title>
+</head>
+<body class="container">
+    <header>
+        <hgroup>
+            <h1>PHP Companies</h1>
+            <p id="number-of-companies"></p>
+        </hgroup>
+        <nav>
+            <ul>
+                <li><small><a href="https://github.com/aldemeery/phpcompanies/issues/new?template=new-company.md&title=Add+Company%3A+%5BCompany%5D" target="_blank"><i style="margin-right: 5px;" class="fa-solid fa-arrow-up-right-from-square"></i>Submit a Company</a></small></li>
+                <li><small><a href="https://github.com/aldemeery/phpcompanies" target="_blank"><i style="margin-right: 5px;" class="fa-brands fa-github"></i>View on Github</a></small></li>
+                <li><small><a href="./"><i style="margin-right: 5px;" class="fa-solid fa-house"></i>Home</a></small></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h1>PHPCompanies: A Community-Driven PHP Companies Directory</h1>
+
+            <p>
+                As a poor PHP developer, whenever I searched for a PHP job, I used to use platforms like LinkedIn, Indeed, etc.
+                <br>
+                and I always braced myself for the frustration caused by the sheer volume of spam postings.
+                <br>
+                You know, it's just the way it works.
+            </p>
+
+            <p>
+                Time went by, and I needed to find a new company to work for.
+                <br>
+                This time, and out of my frustration, I decided to try manually checking companies websites and their careers pages to see if they were looking for people to join.
+            </p>
+
+            <p>
+                And surprisingly, this worked much better.
+                <br>
+                It had a noticeably higher apply-to-response rate, meaning that my applications were more likely to be seen, and I actually needed to apply to fewer companies in order to land a job.
+            </p>
+
+            <p>
+                The only problem with that method was that there was no single source listing all PHP companies.
+                <br>
+                So, I had to spend a lot of time researching a lot of companies to find those that used PHP for development and then see if they were hiring.
+            </p>
+
+            <p>
+                This made me always think: if only there were a single place that listed all PHP companies.
+                <br>
+                Then I thought, why not create a community-maintained directory of PHP companies?
+            </p>
+
+            <p>
+                By enabling everyone to contribute companies they’ve worked for, we could build a comprehensive resource where developers can find new opportunities from submissions by others.
+                <br>
+                Maybe even companies could list themselves to be directly visible to engineers, avoiding the recruitment maze.
+            </p>
+
+            <p>
+                Think about it... it's a win for everyone and a loss for talent-pooling spammers (aka recruitment agencies).
+            </p>
+
+            <p>
+                So here I am. I’ve created a <a href="https://github.com/aldemeery/phpcompanies" target="_blank">repo on GitHub</a> to be an open-source directory of PHP companies, built for and by the community.
+                <br>
+                And I've built a super simple UI to make searching easier.
+            </p>
+
+            <p>
+                I've also made contribution super simple — in order to encourage people to contribute.
+                <br>
+                You just have to <a href="https://github.com/aldemeery/phpcompanies/issues/new?template=new-company.md&title=Add+Company%3A+%5BCompany%5D" target="_blank">open an issue</a>, submitting the company name (and other information if you want), and I'll take care of the rest.
+            </p>
+
+            <p>
+                The list of companies is also kept in a <a href="https://github.com/aldemeery/phpcompanies/blob/master/js/db/companies.db.js" target="_blank">single file</a>, in case someone wants the raw data to do anything with.
+            </p>
+        </section>
+    </main>
+
+    <script src="./js/db/countries.db.js"></script>
+    <script src="./js/db/companies.db.js"></script>
+    <script>
+        if (typeof companies !== 'undefined') {
+            document.getElementById('number-of-companies').innerText = `A list of ${companies.length} companies!`;
+        }
+    </script>
+</body>
+</html>

@@ -15,8 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
     window.companyNameComponent.hook((companyName) => {
         window.companiesTableComponent.filter(filters());
     });
-
-    document.getElementById('number-of-companies').innerText = `A list of ${companies.length} companies!`;
 });
 
 
