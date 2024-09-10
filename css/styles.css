@@ -1,0 +1,13 @@
+.logo {
+    width: 28px;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+}
+
+.company-link {
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}

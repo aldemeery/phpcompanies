@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-US" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/pico.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>PHP Companies</title>
+</head>
+<body class="container">
+    <header>
+        <hgroup>
+            <h1>PHP Companies</h1>
+            <p id="number-of-companies"></p>
+        </hgroup>
+        <nav>
+            <ul>
+                <li><small><a href="#"><i style="margin-right: 5px;" class="fa-solid fa-arrow-up-right-from-square"></i>Submit a Company</a></small></li>
+                <li><small><a href="https://github.com/aldemeery/phpcompanies" target="_blank"><i style="margin-right: 5px;" class="fa-brands fa-github"></i>View on Github</a></small></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section class="grid">
+            <input type="text" placeholder="Search by name..." data-component="company-name">
+            <select aria-label="Select" data-component="country-select"></select>
+            <label><input name="remote" type="checkbox" role="switch" data-component="remote">Remote</label>
+        </section>
+
+        <hr>
+
+        <section class="overflow-auto">
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Company</th>
+                        <th scope="col">Country</th>
+                        <th scope="col">Remote</th>
+                        <th scope="col">Links</th>
+                    </tr>
+                </thead>
+                <tbody data-component="companies-table"></tbody>
+            </table>
+        </section>
+    </main>
+    <script src="./js/db/countries.db.js"></script>
+    <script src="./js/db/companies.db.js"></script>
+    <script src="./js/components/CountrySelect.js"></script>
+    <script src="./js/components/Remote.js"></script>
+    <script src="./js/components/CompanyName.js"></script>
+    <script src="./js/components/CompaniesTable.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
