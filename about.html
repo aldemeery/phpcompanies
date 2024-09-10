@@ -1,13 +1,42 @@
 <!doctype html>
 <html lang="en-US" data-theme="light">
 <head>
+    <title>PHP Companies | About</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Community-Driven Directory of PHP Companies.">
+    <meta name="keywords" content="PHP, Companies, Directory, Remote, Jobs, PHP Companies, PHP Jobs">
+    <meta name="author" content="Osama Aldemeery">
+    <meta name="robots" content="index, follow">
 
+    <meta property="og:title" content="PHP Companies | About">
+    <meta property="og:description" content="A Community-Driven Directory of PHP Companies.">
+    <meta property="og:url" content="https://phpcompanies.net/about.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@aldemeery">
+    <meta name="twitter:creator" content="@aldemeery">
+    <meta name="twitter:url" content="https://phpcompanies.net/about.html">
+    <meta name="twitter:domain" content="phpcompanies.net">
+    <meta name="twitter:title" content="PHP Companies - A Community-Driven Directory of PHP Companies">
+    <meta name="twitter:description" content="A Community-Driven Directory of PHP Companies.">
+
+    <link rel="canonical" href="https://phpcompanies.net">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <link rel="stylesheet" href="css/pico.min.css">
 
-    <title>PHP Companies</title>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "PHP Companies | About",
+            "url": "https://phpcompanies.net/about.html",
+            "description": "A Community-Driven Directory of PHP Companies."
+        }
+    </script>
 </head>
 <body class="container">
     <header>
@@ -96,6 +125,14 @@
         if (typeof companies !== 'undefined') {
             document.getElementById('number-of-companies').innerText = `A list of ${companies.length} companies!`;
         }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-09TRET08H9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-09TRET08H9');
     </script>
 </body>
 </html>
