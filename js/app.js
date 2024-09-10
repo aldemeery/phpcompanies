@@ -29,7 +29,7 @@ function filters() {
             return window.remoteComponent.isChecked() ? company.remote : true;
         },
         (company) => {
-            return window.companyNameComponent.getValue() ? company.name.toLowerCase().startsWith(window.companyNameComponent.getValue()) : true;
+            return window.companyNameComponent.getValue() ? company.name.toLowerCase().startsWith(window.companyNameComponent.getValue().toLowerCase()) : true;
         }
     ];
 }
