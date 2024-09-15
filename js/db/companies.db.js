@@ -76,7 +76,7 @@ const companies = [
         }
     },
     {
-        name: "Prompt",
+        name: "Prompt Therapy Solutions",
         description: "",
         country: countries.US,
         remote: true,
