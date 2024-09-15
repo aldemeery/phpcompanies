@@ -80,7 +80,7 @@ const companies = [
         description: "",
         country: countries.US,
         remote: true,
-        logo: "",
+        logo: "prompt.png",
         links: {
             website: "https://promptemr.com",
             careers: "https://promptemr.com/company/careers/",
