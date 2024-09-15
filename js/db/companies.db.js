@@ -75,4 +75,23 @@ const companies = [
             glassdoor: "https://www.glassdoor.com/Overview/Working-at-Ofload-EI_IE3795737.11,17.htm"
         }
     },
+    {
+        name: "Prompt",
+        description: "",
+        country: countries.US,
+        remote: true,
+        logo: "",
+        links: {
+            website: "https://promptemr.com",
+            careers: "https://promptemr.com/company/careers/",
+            x: "",
+            facebook: "",
+            linkedin: "",
+            instagram: "",
+            github: "",
+            youtube: "",
+            crunchbase: "https://www.crunchbase.com/organization/prompt-emr",
+            glassdoor: ""
+        }
+    },
 ].sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
