@@ -94,4 +94,23 @@ const companies = [
             glassdoor: ""
         }
     },
+    {
+        name: "Help Scout",
+        description: "",
+        country: countries.US,
+        remote: true,
+        logo: "help-scout.png",
+        links: {
+            website: "https://www.helpscout.com",
+            careers: "https://www.helpscout.com/company/careers/",
+            x: "",
+            facebook: "",
+            linkedin: "",
+            instagram: "",
+            github: "",
+            youtube: "",
+            crunchbase: "https://www.crunchbase.com/organization/help-scout",
+            glassdoor: ""
+        }
+    }
 ].sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
