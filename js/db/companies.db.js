@@ -182,7 +182,7 @@ const companies = [
             x: "https://twitter.com/plentific",
             facebook: "",
             linkedin: "https://www.linkedin.com/company/plentific-ltd",
-            instagram: "http://www.instagram.com/Plentific_us",
+            instagram: "https://www.instagram.com/Plentific_us",
             github: "",
             youtube: "https://www.youtube.com/user/plentific",
             crunchbase: "https://www.crunchbase.com/organization/plentific",
