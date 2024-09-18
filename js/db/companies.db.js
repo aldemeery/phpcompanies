@@ -173,7 +173,7 @@ const companies = [
     {
         name: "Plentific",
         description: "",
-        country: countries.UK,
+        country: countries.GB,
         remote: true,
         logo: "plentific.png",
         links: {
