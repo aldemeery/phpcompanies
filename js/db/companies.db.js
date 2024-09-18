@@ -150,5 +150,24 @@ const companies = [
             crunchbase: "https://www.crunchbase.com/organization/mahisoft",
             glassdoor: "https://www.glassdoor.com/Overview/Working-at-Mahisoft-EI_IE925705.11,19.htm"
         }
+    },
+    {
+        name: "Moodle",
+        description: "",
+        country: countries.AU,
+        remote: true,
+        logo: "moodle.png",
+        links: {
+            website: "https://moodle.com",
+            careers: "https://moodle.com/careers",
+            x: "https://x.com/moodle",
+            facebook: "https://www.facebook.com/moodle",
+            linkedin: "https://www.linkedin.com/company/moodle",
+            instagram: "https://www.instagram.com/moodlehq",
+            github: "",
+            youtube: "https://www.youtube.com/moodle",
+            crunchbase: "https://www.crunchbase.com/organization/moodle",
+            glassdoor: "https://www.glassdoor.com/Overview/Working-at-Moodle-EI_IE854112.11,17.htm"
+        }
     }
 ].sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
