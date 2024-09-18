@@ -188,5 +188,24 @@ const companies = [
             crunchbase: "https://www.crunchbase.com/organization/plentific",
             glassdoor: "https://www.glassdoor.com/Overview/Working-at-Plentific-EI_IE966007.11,20.htm"
         }
+    },
+    {
+        name: "Divelement",
+        description: "",
+        country: countries.US,
+        remote: true,
+        logo: "divelement.png",
+        links: {
+            website: "https://divelement.io",
+            careers: "https://divelement.io/careers",
+            x: "https://x.com/divelement_io",
+            facebook: "https://www.facebook.com/divelement.io",
+            linkedin: "https://www.linkedin.com/company/divelement",
+            instagram: "https://www.instagram.com/divelement.io",
+            github: "",
+            youtube: "https://www.youtube.com/@techbackstage",
+            crunchbase: "https://www.crunchbase.com/organization/divelement",
+            glassdoor: "https://www.glassdoor.com/Overview/Working-at-Divelement-EI_IE5708639.11,21.htm"
+        }
     }
 ].sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
