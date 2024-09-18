@@ -169,5 +169,24 @@ const companies = [
             crunchbase: "https://www.crunchbase.com/organization/moodle",
             glassdoor: "https://www.glassdoor.com/Overview/Working-at-Moodle-EI_IE854112.11,17.htm"
         }
+    },
+    {
+        name: "Plentific",
+        description: "",
+        country: countries.UK,
+        remote: true,
+        logo: "plentific.png",
+        links: {
+            website: "https://www.plentific.com",
+            careers: "https://www.plentific.com/careers",
+            x: "https://twitter.com/plentific",
+            facebook: "",
+            linkedin: "https://www.linkedin.com/company/plentific-ltd",
+            instagram: "http://www.instagram.com/Plentific_us",
+            github: "",
+            youtube: "https://www.youtube.com/user/plentific",
+            crunchbase: "https://www.crunchbase.com/organization/plentific",
+            glassdoor: "https://www.glassdoor.com/Overview/Working-at-Plentific-EI_IE966007.11,20.htm"
+        }
     }
 ].sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
