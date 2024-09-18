@@ -131,5 +131,24 @@ const companies = [
             crunchbase: "https://www.crunchbase.com/organization/bamboo-b974",
             glassdoor: ""
         }
+    },
+    {
+        name: "Mahisoft",
+        description: "",
+        country: countries.US,
+        remote: true,
+        logo: "mahisoft.png",
+        links: {
+            website: "https://mahisoft.com",
+            careers: "https://mahisoft.com/careers",
+            x: "",
+            facebook: "https://www.facebook.com/mahisoftinc/",
+            linkedin: "https://www.linkedin.com/company/mahisoft",
+            instagram: "https://www.instagram.com/mahisoftinc",
+            github: "",
+            youtube: "",
+            crunchbase: "https://www.crunchbase.com/organization/mahisoft",
+            glassdoor: "https://www.glassdoor.com/Overview/Working-at-Mahisoft-EI_IE925705.11,19.htm"
+        }
     }
 ].sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
