@@ -112,5 +112,24 @@ const companies = [
             crunchbase: "https://www.crunchbase.com/organization/help-scout",
             glassdoor: ""
         }
+    },
+    {
+        name: "Bamboo",
+        description: "",
+        country: countries.US,
+        remote: true,
+        logo: "bamboo-01.png",
+        links: {
+            website: "https://getbamboo.com",
+            careers: "https://getbamboo.com/careers",
+            x: "https://twitter.com/bamboometrix",
+            facebook: "",
+            linkedin: "https://www.linkedin.com/company/bamboo-metrix",
+            instagram: "",
+            github: "",
+            youtube: "",
+            crunchbase: "https://www.crunchbase.com/organization/bamboo-b974",
+            glassdoor: ""
+        }
     }
 ].sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
