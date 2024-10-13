@@ -207,5 +207,24 @@ const companies = [
             crunchbase: "https://www.crunchbase.com/organization/divelement",
             glassdoor: "https://www.glassdoor.com/Overview/Working-at-Divelement-EI_IE5708639.11,21.htm"
         }
+    },
+    {
+        name: "Envisage International",
+        description: "",
+        country: countries.US,
+        remote: true,
+        logo: "envisage-international.png",
+        links: {
+            website: "https://envisageinternational.com",
+            careers: "https://envisageinternational.com/about/employment",
+            x: "https://x.com/envisageintl",
+            facebook: "https://www.facebook.com/envisageinternational",
+            linkedin: "https://www.linkedin.com/company/envisage-international-corporation/",
+            instagram: "",
+            github: "",
+            youtube: "",
+            crunchbase: "https://www.crunchbase.com/organization/envisage-international",
+            glassdoor: "https://www.glassdoor.com/Overview/Working-at-Envisage-International-EI_IE2283474.11,33.htm"
+        }
     }
 ].sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
